@@ -3,52 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formatura 3º Ano</title>
+    <title>Formatura do 3º Ano C - 2024</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Formatura do 3º Ano</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#fotos">Fotos</a></li>
-                <li><a href="#mensagens">Mensagens</a></li>
-            </ul>
-        </nav>
+        <div class="cabeçalho">
+            <h1>Formatura do 3º Ano C - 2024</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#programacao">Programação</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="sobre">
-        <h2>Sobre o Evento</h2>
-        <p>Bem-vindos à celebração da Formatura do 3º Ano! Um momento especial para celebrarmos nossas conquistas, amizades e novos começos.</p>
-        <p><strong>Data:</strong> 07 de dezembro de 2024</p>
-        <p><strong>Local:</strong> Câmara Municipal - Abatiá</p>
-    </section>
-
-    <section id="fotos">
-        <h2>Galeria de Fotos</h2>
-        <div class="galeria">
-            <img src="foto1.jpg" alt="Foto 1">
-            <img src="foto2.jpg" alt="Foto 2">
-            <img src="foto3.jpg" alt="Foto 3">
+    <section id="home" class="banner">
+        <div class="container">
+            <h2>Bem-vindo à Formatura 2024</h2>
+            <p>Um momento especial para celebrar nossas conquistas!</p>
         </div>
     </section>
 
-    <section id="mensagens">
-        <h2>Deixe sua Mensagem</h2>
-        <form action="#" method="POST">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre a Formatura</h2>
+            <p>A formatura do 3º ano é um marco importante na vida de todos os estudantes. Vamos comemorar juntos essa etapa!</p>
+        </div>
+    </section>
 
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+    <section id="programacao">
+        <div class="container">
+            <h2>Programação</h2>
+            <ul>
+                <li>30/11/24 - Missa dos Formandos</li>
+                <li>07/12/24 - 19:00 Formatura</li>
+                <li>07/12/24 - Após a Formatura: Clube de Campo</li>
+                
+            </ul>
+        </div>
+    </section>
 
-            <button type="submit">Enviar</button>
-        </form>
+    <section id="galeria">
+        <div class="container">
+            <h2>Galeria de Fotos</h2>
+            <div class="galeria-fotos">
+                <img class="imagens" src="554398051189_status_b38e6b821c2e49a4aa89e45a503411d5.jpg" alt="Foto da formatura 1">
+                <img class="imagens" src="IMG-20240614-WA0084-1.jpg" alt="Foto da formatura 2">
+                <img class="imagens" src="IMG-20240705-WA0036-1.jpg" alt="Foto da formatura 3">
+                <video class="video" src=""></video>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato com a comissão de formatura pelo email: <a href="mailto:comissao@formatura2024.com">comissao@formatura2024.com</a></p>
+        </div>
     </section>
 
     <footer>
-        <p>© 2024 Formatura do 3º Ano - Todos os direitos reservados.</p>
+        <div class="container">
+            <p>&copy; 2024 Formatura do 3º Ano - Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
